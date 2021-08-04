@@ -6,8 +6,8 @@ import smtplib  # for sending email using SMTP protocol (gmail)
 from threading import Semaphore, Timer
 
 SEND_REPORT_EVERY = 10*60  # 10 minutes
-# Enter Your Email Address
-EMAIL_ADDRESS = "<your_gmail_id>"
+# Enter Your Email  Address
+EMAIL_ADDRESS = "<your_email_id>"
 # Enter Your Email Password
 EMAIL_PASSWORD = "<your_password>"
 
